@@ -1,0 +1,20 @@
+# Python auto-generated files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files (too large for Git)
+data/
+*.csv
+*.xlsx
+*.xls
