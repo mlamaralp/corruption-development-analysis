@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates the relationship between corruption and economic development across countries from 2012 to 2022. Using the Corruption Perceptions Index (CPI) from Transparency International and development indicators from the World Bank — GDP per capita, government effectiveness and HDI it explores how corruption shapes a country's economic trajectory and whether development reduces corruption over time.
+This project investigates the relationship between corruption and economic development across countries from 2012 to 2022. Using the Corruption Perceptions Index (CPI) from Transparency International and development indicators from the World Bank GDP per capita, government effectiveness and HDI it explores how corruption shapes a country's economic trajectory and whether development reduces corruption over time.
 
 This project was independently designed and developed by me, drawing inspiration from the course of data visualisation project completed during my degree. The analytical structure follows the same methodology: two complementary datasets merged into a country-year panel, three analytical questions, and interactive Tableau dashboards — but the topic, datasets, research questions, code and conclusions are entirely my own original work.
 
