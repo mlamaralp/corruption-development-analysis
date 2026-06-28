@@ -18,7 +18,7 @@ Developed for the **Data Visualization** course at Nova School of Business and E
 
 - The relationship between corruption and GDP per capita is strong and non-linear: above roughly $20,000 GDP per capita (PPP), nearly all countries score above 50 on the CPI (less corrupt). Below that threshold, scores are widely dispersed, suggesting that economic development is necessary but not sufficient to reduce corruption.
 - Sub-Saharan Africa and parts of South Asia show the weakest improvement over the study period despite economic growth, pointing to institutional inertia rather than a purely economic mechanism.
-- Eastern Europe and Central Asia show the most variance: countries like Estonia and Georgia improved dramatically after 2004, while others stagnated — suggesting that political will and EU accession pressure are stronger predictors of anti-corruption progress than income alone.
+- Eastern Europe and Central Asia show the most variance: countries like Estonia and Georgia improved dramatically after 2004, while others stagnated suggesting that political will and EU accession pressure are stronger predictors of anti-corruption progress than income alone.
 - The COVID-19 period (2020–2021) coincides with a measurable CPI decline in several middle-income countries, consistent with emergency procurement opacity and reduced institutional oversight during crises.
 - Nordic countries (Denmark, Finland, Norway) have held the top CPI positions throughout the entire period with minimal variance, forming a stable benchmark. At the bottom, Somalia, South Sudan and Syria have shown no meaningful improvement despite international pressure.
 
@@ -73,7 +73,7 @@ These notes document deliberate design choices and known limitations in the dash
 
 The heatmap compares three development indicators (GDP per capita, Government Effectiveness, HDI) across CPI corruption categories. A known limitation of this view is that the three indicators operate on very different scales: GDP per capita ranges from roughly $1,000 to $70,000, Government Effectiveness from -2.5 to +2.5, and HDI from 0 to 1. A single shared colour scale would be dominated entirely by GDP and make the other two indicators invisible.
 
-To address this, a per-row colour encoding is used, where the darkest colour within each row represents the highest value for that indicator. This allows meaningful within-indicator comparison across corruption categories while acknowledging that cross-indicator colour comparisons are not valid. The pattern that emerges — Very Clean countries consistently showing darker colours across all three rows — is robust regardless of this limitation.
+To address this, a per-row colour encoding is used, where the darkest colour within each row represents the highest value for that indicator. This allows meaningful within-indicator comparison across corruption categories while acknowledging that cross-indicator colour comparisons are not valid. The pattern that emerges — Very Clean countries consistently showing darker colours across all three rows, is robust regardless of this limitation.
 
 **Scatter plots — Log GDP per capita**
 
